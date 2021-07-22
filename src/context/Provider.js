@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import CarsContext from './CarsContext';
 
-const Provider = () => {
+const Provider = ({ children }) => {
   const [cars, setCars] = useState({
     red: false,
     blue: false,
@@ -23,8 +23,6 @@ const Provider = () => {
     ...cars,
     moveCar: moveCar,
   };
-
-  const { children } = this.props;
 
   return (
     <CarsContext.Provider value={context}>
