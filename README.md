@@ -7,7 +7,7 @@ Crie um fork desse projeto e para isso siga esse [tutorial de como realizar um f
 Após feito o fork, clone o repositório criado para o seu computador.
 
 Rode o `npm install`.
-
+s
 Vá para a branch master do seu projeto e execute o comando:
 - `git branch` 
 
