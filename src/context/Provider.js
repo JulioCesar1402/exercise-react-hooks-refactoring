@@ -12,10 +12,8 @@ const Provider = ({ children }) => {
 
   const moveCar = (car, side) => {
     setCars({
-      cars: {
-        ...cars,
-        [car]: side,
-      },
+      ...cars,
+      [car]: side,
     });
   };
 
